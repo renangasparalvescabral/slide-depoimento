@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1440px;
+    height: 1045px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*...............TAYNA...........*/
+
+.container-tanya{
+    display: flex;
+}
+
+.div-tayna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 22px;
+    padding: 25px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+
+.foto-tayna{
+    width: 100%;
+
+}
+
+
+/*...............JOHN............*/
+
+.container-john{
+    display: flex;
+   
+}
+
+/*...............FOOTER..........*/
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}

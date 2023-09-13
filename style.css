@@ -17,6 +17,7 @@ body{
 
 .container-tanya{
     display: flex;
+    
 }
 
 .div-tayna{
@@ -26,28 +27,32 @@ body{
 }
 
 p{
-    
     font-family: 'Inter', sans-serif;
     font-weight: 300;
 }
 
 h3{
     font-size: 22px;
-    padding: 25px 0;
+    padding: 25px 0px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
 
 h4{
+    padding-left: 10px;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+  
 }
 
+.tayna-2{
+    display: flex;
+    align-items: center;
+}
 
 .foto-tayna{
     width: 100%;
-
 }
 
 

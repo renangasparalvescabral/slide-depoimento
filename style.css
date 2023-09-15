@@ -5,9 +5,7 @@
 }
 
 body{
-    width: 1440px;
-    height: 1045px;
-    font-size: 32px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,16 +15,31 @@ body{
 
 .container-tanya{
     display: flex;
-    
+    position: relative;
+    width: 768px;
 }
 
 .div-tayna{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 475px;
+}
+
+.quotes{
+    top: 100px;
+    left: 60px;
+    position: absolute;
+    width: 10%;
+}
+
+.img-tanya p{
+    position: relative;
 }
 
 p{
+    position: absolute;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
 }
@@ -48,14 +61,30 @@ h4{
 
 .tayna-2{
     display: flex;
-    align-items: center;
+    align-items:center;
+    position: absolute;
+    top: 270px;
 }
 
 .foto-tayna{
+    box-shadow: 0 8px 10px rgba(0,0,0,0.2);
     width: 100%;
 }
 
+.slide{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    position: absolute;
+    top: 520px;
+    left: 40%;
+}
 
+.slide img{
+    cursor: pointer;
+    padding: 8px 10px 2px 10px;
+}
 /*...............JOHN............*/
 
 .container-john{

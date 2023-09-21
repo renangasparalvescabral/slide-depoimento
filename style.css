@@ -21,14 +21,13 @@ body{
 }
 
 .div-tayna{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 100px;
     width: 475px;
+
 }
 
 .quotes{
-    top: 100px;
+    top: 65px;
     left: 60px;
     position: absolute;
     width: 10%;
@@ -126,8 +125,74 @@ h4{
     .container-tanya{
         flex-direction: column-reverse;
         width: 350px;
+        align-items: center;
+        align-content: center;
     
     }
+
+    article{
+        top: -110px;
+    }
+
+    .div-tayna{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+       
+    }
+
+    .quotes{
+        top: 330px;
+        left: 45%;
+        width: 15%;
+    }
+    .div-tayna p{
+        font-size: 17px;
+        top: 360px;
+        text-align: center;
+        
+    }
+
+    .div-tayna .tayna-2{
+        top: 450px;
+    }
+
+    .tayna-2{
+        flex-direction: column;
+    }
+
+    .tayna-2 h3{
+        font-size: 18px;
+    }
+
+    h3{
+        padding: 40px 0 5px 0;
+    
+    }
+
+    .img-tanya{
+         width: 70vw;
+    }
+
+    .foto-decorativa{
+        top: -30px;
+        left: 5px;
+        width: 90vw;
+    }
+
+    .img-curve{
+        width: 100vw;
+        left: 0px;
+    }
+
+    .slide{
+        top: 245px;
+        left: 130px;
+    }
+
+    
+
 
    
 
